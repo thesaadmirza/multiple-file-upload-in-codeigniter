@@ -1,3 +1,5 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript" language="javascript"></script>
+
 <script src="<?= base_url() ?>global/Multifile/js/jQuery.MultiFile.js"></script>
 
 <div class="row">
@@ -13,14 +15,13 @@
         <form enctype="multipart/form-data" method="post" action="<?= current_url() ?>">
 
             <div class="form-group">
-                <label for="FileDesc"><?= lang('FileDesc'); ?></label>
-                 <textarea type="text" name="FileDesc" class="form-control" id="new_desc"><?= set_value('FileDesc') ?>
-                 </textarea>
+                <label class="form-control-label" for="FileDesc"><?= lang('FileDesc'); ?></label>
+                 <textarea  name="FileDesc" class="form-control" id="new_desc"><?= set_value('FileDesc') ?> </textarea>
                 <p class="text-red"><?= form_error('FileDesc'); ?></p>
             </div>
 
             <div class="form-group">
-                <input id="file" multiple="multiple" class="form-control multi with-preview" type="file" name="files[]" maxlength="1"/>
+                <input id="file" multiple="multiple" class="form-control multi with-preview" type="file" name="files[]" maxlength="2"/>
                 <p class="text-red"><?= form_error('files'); ?></p>
             </div>
 

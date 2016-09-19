@@ -28,7 +28,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
     </button>
-    <a class="navbar-brand" href="#">Project name</a>
+    <a class="navbar-brand" href="#">Codeigniter Multi-upload</a>
     <div id="navbar">
         <nav class="nav navbar-nav pull-xs-left">
             <a class="nav-item nav-link" href="#">Dashboard</a>
